@@ -4,6 +4,9 @@ const nextConfig = {
     output: "export",  // <=== enables static exports
     distDir: 'build',
     reactStrictMode: true,
+    images: {
+      unoptimized: true,
+    },
 };
 
 export default nextConfig;
